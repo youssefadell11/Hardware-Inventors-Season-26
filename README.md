@@ -1,4 +1,4 @@
-# Hardware Inventors - Course Project 2026
+# <img src="./index/logo.jpg" height="40" align="center"> Hardware Inventors - Course Project 2026
 
 > **Project Overview**
 > * **Board:** Dual-MCU Control & Sensor Interface Board (ESP32 + STM32)
@@ -13,11 +13,14 @@
 ### 1. ESP32 Subsystem
 This subsystem maps the ESP32 module's role as the primary sensor interface and communication hub. It details the I2C and SPI connections to the BME280 and LIS3DH sensors, analog input from the LDR circuit, and the core power and debug routing. The ESP32 handles environmental data collection and communicates with the main STM32 controller via a dedicated UART bus.
 
+![ESP32 Subsystem Block Diagram](./index/ESP32_Subsystem.jpg)
+
 ### 2. STM32 Subsystem
 This subsystem outlines the STM32F407's core responsibilities, focusing on hardware control, high-speed memory, and external bus interfacing. It traces the logic paths for the 12V motor drive via BJT, external CAN bus communication, ADC signal conditioning for V-BUS sensing, and the QSPI interface for the W25Q512JEIQ flash memory.
-
+![STM32 Subsystem Block Diagram](./index/STM32_Subsystem.jpg)
 ### 3. Power Distribution Network
 Both 5V and 3.3V voltage rails feature dedicated Power Status LEDs.
+![Power Distribution Network Block Diagram](./index/Power_Distribution_Network.jpg)
 
 ---
 
