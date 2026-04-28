@@ -1,4 +1,4 @@
-# <img src="./index/logo.jpg" height="40" align="center"> Hardware Inventors - Course Project 2026
+# <img src="./Index/logo.jpg" height="40" align="center"> Hardware Inventors - Course Project 2026
 
 > **Project Overview**
 > * **Board:** Dual-MCU Control & Sensor Interface Board (ESP32 + STM32)
